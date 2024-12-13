@@ -7,11 +7,21 @@ Voice to text dictation app for Windows using OpenAI's Whisper API
 
 A simple app that runs in your tray waiting for a trigger keypress (CTRL+SHIFT+ALT by default), using your default microphone it records your voice until you release the trigger keys, it will then be sent to OpenAI's Whisper model and the text is sent back and typed out wherever your cursor is active.
 
-## To run
+## Installation
 
-Install dependancies (list to come)
+To install the required Python packages, run the following command:
 
-run main.py
+```bash
+pip install pyaudio keyboard requests pyautogui screeninfo pillow pystray
+```
+
+## Running the Script
+
+To run the script, use the following command:
+
+```bash
+python main.py
+```
 
 ## Config.ini
 
