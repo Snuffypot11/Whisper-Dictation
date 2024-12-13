@@ -25,7 +25,11 @@ python main.py
 
 ## Config.ini
 
-Created in users app data by main.py on first run, settings GUI allows easy modification of the below options in the ini file.
+Created in users app data by main.py on first run.
+
+`C:\Users\<user>\AppData\Local\WhisperDictation\config.ini`
+
+There is a settings GUI if you right click the taskbar icon, that allows easy modification of the below options in the ini file.
 
 ### WHISPER_API_KEY =
 
